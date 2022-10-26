@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo app</title>
+  </head>
+  <body id="change-theme">
+    <header>
+      <div class="header-container">
+        <h1>T O D O</h1>
+        <div class="change-theme-icon">
+          <img src="./images/icon-sun.svg" alt="sun" class="sun" />
+          <img src="./images/icon-moon.svg" alt="moon" class="moon hidden" />
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <form id="form">
+        <input type="text" id="task" placeholder="add task" />
+
+        <button type="submit" id="submit">Add Task</button>
+        <div id="tasks"></div>
+      </form>
+      <div class="buttons">
+        <button id="all-task" class="btn">All</button>
+        <button id="active-task" class="btn">Active</button>
+        <button id="completed-task" class="btn">Completed</button>
+        <button id="clear-task" class="btn">Clear Tasks</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
