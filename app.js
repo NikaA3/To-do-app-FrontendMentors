@@ -73,17 +73,3 @@ changeIcon.addEventListener("click", () => {
   moon.classList.toggle("hidden");
   sun.classList.toggle("hidden");
 });
-
-// moon.addEventListener("click", () => {
-//   let sia = document.querySelectorAll(".sia");
-//   moon.classList.add("hidden");
-//   sun.classList.remove("hidden");
-//   header.style.background =
-//     'url("./images/bg-desktop-dark.jpg") no-repeat center/cover ';
-//   body.style.background = "hsl(235, 21%, 11%)";
-//   task.style.background = "hsl(235, 24%, 19%)";
-//   sia.forEach((item) => (item.style.background = "hsl(235, 24%, 19%)"));
-//   sia.forEach((item) => (item.style.color = "hsl(234, 39%, 85%)"));
-//   task.style.color = "#fff";
-//   buttons.forEach((button) => (button.style.background = "hsl(235, 24%, 19%)"));
-// });
